@@ -31,6 +31,7 @@ liczby miejsc dziesiêtnych, które chcia³by¶ widzieæ.
 
 %prep
 %setup -q
+%patch -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
