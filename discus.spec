@@ -26,7 +26,7 @@ Discus zamierza uczyniæ df piêkniejszym, poprzez kolor, wykresy i
 eleganckie formatowanie liczb (automatycznie wybieraj±c najbardziej
 odpowiedni± wielko¶æ z kilobajtów, megabajtów, gigabajtów lub
 terabajtów). Je¿eli nie chcesz, ¿eby Discus decydowa³ o najlepszej
-wielko¶ci, mo¿esz te¿ wybraæ w³asne przyrosty, po przez podanie
+wielko¶ci, mo¿esz te¿ wybraæ w³asne przyrosty, poprzez podanie
 liczby miejsc dziesiêtnych, które chcia³by¶ widzieæ.
 
 %prep
