@@ -1,0 +1,16 @@
+diff -Nura discus-0.2.9/discusrc discus-0.2.9.new/discusrc
+--- discus-0.2.9/discusrc	2000-09-16 04:32:08.000000000 +0200
++++ discus-0.2.9.new/discusrc	2004-06-08 02:34:50.000000000 +0200
+@@ -26,7 +26,11 @@
+ opts["places"] = 1
+ 
+ ##  Filesystems to ignore.
+-opts["skip_list"] = ["/dev/pts", "/proc"]
++opts["skip_list"] =	["/dev/pts",
++			"/proc",
++			"/proc/bus/usb",
++			"/proc/sys/fs/binfmt_misc",
++			"/sys" ]
+ 
+ ##  Use smart formatting of numbers.
+ opts["smart"] = 1
