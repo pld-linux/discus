@@ -22,24 +22,23 @@ your own increments, along with specifying the number of decimal
 places you'd like to see.
 
 %description -l pl
-Discus zamierza uczyniæ df piêkniejszym, po przez kolor, wykresy i
+Discus zamierza uczyniæ df piêkniejszym, poprzez kolor, wykresy i
 eleganckie formatowanie liczb (automatycznie wybieraj±c najbardziej
 odpowiedni± wielko¶æ z kilobajtów, megabajtów, gigabajtów lub
 terabajtów). Je¿eli nie chcesz, ¿eby Discus decydowa³ o najlepszej
 wielko¶ci, mo¿esz te¿ wybraæ w³asne przyrosty, po przez podanie
-liczby miejsc dziesiêtnych, które chcia³bys widzieæ.
+liczby miejsc dziesiêtnych, które chcia³by¶ widzieæ.
 
 %prep
-%setup -q %{name}-%{version}.tar.gz
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir},%{_mandir}/man1/}
-install %{name}		$RPM_BUILD_ROOT/%{_bindir}
-install %{name}rc	$RPM_BUILD_ROOT/%{_sysconfdir}
-gzip -9 %{name}.1
-install %{name}.1.gz	$RPM_BUILD_ROOT/%{_mandir}/man1/
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir},%{_mandir}/man1}
+
+install %{name}		$RPM_BUILD_ROOT%{_bindir}
+install %{name}rc	$RPM_BUILD_ROOT%{_sysconfdir}
+install %{name}.1	$RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
