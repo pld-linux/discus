@@ -2,14 +2,13 @@ Summary:	Pretty version of df(1) command
 Summary(pl):	£adna wersja polecenia df(1)
 Name:		discus
 Version:	0.2.9
-Release:	0.1
-Epoch:		0
+Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://www.raincrazy.com/software/discus/%{name}-%{version}.tar.gz
 # Source0-md5:	bcc4a08d03a0952b0b744655c45b04b8
 URL:		http://www.raincrazy.com/software/discus/
-Requires:	python
+Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
