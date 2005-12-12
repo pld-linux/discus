@@ -26,8 +26,8 @@ Discus zamierza uczyniæ df piêkniejszym, poprzez kolor, wykresy i
 eleganckie formatowanie liczb (automatycznie wybieraj±c najbardziej
 odpowiedni± wielko¶æ z kilobajtów, megabajtów, gigabajtów lub
 terabajtów). Je¿eli nie chcesz, ¿eby Discus decydowa³ o najlepszej
-wielko¶ci, mo¿esz te¿ wybraæ w³asne przyrosty, poprzez podanie
-liczby miejsc dziesiêtnych, które chcia³by¶ widzieæ.
+wielko¶ci, mo¿esz te¿ wybraæ w³asne przyrosty, poprzez podanie liczby
+miejsc dziesiêtnych, które chcia³by¶ widzieæ.
 
 %prep
 %setup -q
@@ -48,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS changelog README TODO
 %attr(755,root,root) %{_bindir}/*
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/%{name}rc
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}rc
 %{_mandir}/man1/*
