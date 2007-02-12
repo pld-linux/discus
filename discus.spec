@@ -1,5 +1,5 @@
 Summary:	Pretty version of df(1) command
-Summary(pl):	£adna wersja polecenia df(1)
+Summary(pl.UTF-8):   Åadna wersja polecenia df(1)
 Name:		discus
 Version:	0.2.9
 Release:	2
@@ -21,13 +21,13 @@ you don't want Discus deciding the best sizes, you can also choose
 your own increments, along with specifying the number of decimal
 places you'd like to see.
 
-%description -l pl
-Discus zamierza uczyniæ df piêkniejszym, poprzez kolor, wykresy i
-eleganckie formatowanie liczb (automatycznie wybieraj±c najbardziej
-odpowiedni± wielko¶æ z kilobajtów, megabajtów, gigabajtów lub
-terabajtów). Je¿eli nie chcemy, ¿eby Discus decydowa³ o najlepszej
-wielko¶ci, mo¿na te¿ wybraæ w³asne przyrosty, poprzez podanie liczby
-po¿±danych miejsc dziesiêtnych.
+%description -l pl.UTF-8
+Discus zamierza uczyniÄ‡ df piÄ™kniejszym, poprzez kolor, wykresy i
+eleganckie formatowanie liczb (automatycznie wybierajÄ…c najbardziej
+odpowiedniÄ… wielkoÅ›Ä‡ z kilobajtÃ³w, megabajtÃ³w, gigabajtÃ³w lub
+terabajtÃ³w). JeÅ¼eli nie chcemy, Å¼eby Discus decydowaÅ‚ o najlepszej
+wielkoÅ›ci, moÅ¼na teÅ¼ wybraÄ‡ wÅ‚asne przyrosty, poprzez podanie liczby
+poÅ¼Ä…danych miejsc dziesiÄ™tnych.
 
 %prep
 %setup -q
