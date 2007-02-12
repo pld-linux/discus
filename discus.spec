@@ -1,5 +1,5 @@
 Summary:	Pretty version of df(1) command
-Summary(pl.UTF-8):   Ładna wersja polecenia df(1)
+Summary(pl.UTF-8):	Ładna wersja polecenia df(1)
 Name:		discus
 Version:	0.2.9
 Release:	2
